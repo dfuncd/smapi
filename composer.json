@@ -2,7 +2,7 @@
   "require": {
     "php": ">=7.0.0",
     "phroute/phroute": "^2.1",
-    "illuminate/database": "^5.2",
+    "illuminate/database": "^5.4",
     "symfony/http-foundation": "^3.0"
   },
 
