@@ -2,7 +2,7 @@
 
 namespace Api;
 
-use Symfony\Component\HttpFoundation\JsonResponse;
+use Illuminate\Http\JsonResponse;
 use Api\Entities\User;
 
 class Platform
