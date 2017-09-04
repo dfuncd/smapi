@@ -1,6 +1,6 @@
 <?php
 
-require_once "../server.php";
+require_once dirname(dirname(__FILE__)) . "/server.php";
 
 $dispatcher = new Phroute\Phroute\Dispatcher($router->getData());
 
