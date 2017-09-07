@@ -2,6 +2,10 @@ machine:
   php:
     version: 7.1.6
 
+database:
+  override:
+    - mysql -u ubuntu api < schema.sql
+
 dependencies:
   override:
     - composer install --prefer-source --no-interaction --no-scripts
