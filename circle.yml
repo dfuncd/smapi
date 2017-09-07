@@ -4,7 +4,7 @@ machine:
 
 database:
   override:
-    - mysql -u ubuntu api < schema.sql
+    - mysql -u ubuntu circle_test < schema.sql
 
 dependencies:
   override:
