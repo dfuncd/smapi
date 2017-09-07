@@ -16,4 +16,8 @@
             <directory suffix="Test.php">./tests/Unit</directory>
         </testsuite>
     </testsuites>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="DB_NAME" value="circle_test"/>
+    </php>
 </phpunit>
