@@ -8,6 +8,7 @@ database:
 
 dependencies:
   override:
+    - cp .env.example .env
     - composer install --prefer-source --no-interaction --no-scripts
 
 test:
