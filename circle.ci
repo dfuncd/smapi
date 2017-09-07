@@ -5,3 +5,7 @@ machine:
 dependencies:
   override:
     - composer install --prefer-source --no-interaction --no-scripts
+
+test:
+  override:
+    - vendor/bin/phpunit
